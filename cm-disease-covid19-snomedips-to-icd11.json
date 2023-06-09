@@ -1,0 +1,42 @@
+{
+    "resourceType": "ConceptMap",
+    "id": "disease-covid19-snomedips-to-icd11",
+    "text": {
+        "status": "extensions",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>DiseaseCovid19SnomedIpsToIcd11ConceptMap</h2></div>"
+    },
+    "url": "http://worldhealthorganization.github.io/ddcc/ConceptMap/disease-covid19-snomedips-to-icd11",
+    "version": "1.0.0",
+    "name": "DiseaseCovid19SnomedIpsToIcd11ConceptMap",
+    "title": "Disease - COVID-19 - Mapping SNOMED-IPS to ICD-11",
+    "status": "draft",
+    "date": "2023-06-08",
+    "publisher": "CENS",
+    "contact": [{
+            "name": "CENS",
+            "telecom": [{
+                    "system": "url",
+                    "value": "http://www.cens.cl"
+                }
+            ]
+        }
+    ],
+    "description": "[Disease COVID-19 SNOMED IPS mapped to ICD-11",
+    "copyright": "TODO: provide copyright information",
+    "group": [{
+            "source": "http://snomed.info/sct",
+            "target": "http://id.who.int/icd11/mms",
+            "element": [{
+                    "code": "840539006",
+                    "display": "Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)",
+                    "target": [{
+                            "code": "RA01 ",
+                            "display": "COVID-19",
+                            "equivalence": "equivalent"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

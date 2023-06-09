@@ -1,0 +1,52 @@
+{
+    "resourceType": "ConceptMap",
+    "id": "labtest-qualitative-result-covid19-snomedips-to-icd11",
+    "text": {
+        "status": "extensions",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LabTestQualitativeResultCovid19SnomedIpsToIcd11ConceptMap</h2></div>"
+    },
+    "url": "http://worldhealthorganization.github.io/ddcc/ConceptMap/labtest-qualitative-result-covid19-snomedips-to-icd11",
+    "version": "1.0.0",
+    "name": "LabTestQualitativeResultCovid19SnomedIpsToIcd11ConceptMap",
+    "title": "Lab Test QualitativeResult - COVID-19 - Mapping SNOMED-IPS to ICD-11",
+    "status": "draft",
+    "date": "2023-06-08",
+    "publisher": "CENS",
+    "contact": [{
+            "name": "CENS",
+            "telecom": [{
+                    "system": "url",
+                    "value": "http://www.cens.cl"
+                }
+            ]
+        }
+    ],
+    "description": "[Lab Test QualitativeResult COVID-19 SNOMED IPS mapped to ICD-11",
+    "copyright": "TODO: provide copyright information",
+    "group": [{
+            "source": "http://snomed.info/sct",
+            "target": "http://id.who.int/icd11/mms",
+            "element": [{
+                    "code": "10828004",
+                    "display": "Positive (qualifier value)",
+                    "target": [{
+                            "code": "RA01.0",
+                            "display": "COVID-19, virus identified",
+                            "equivalence": "equivalent"
+                        }
+                    ]
+                },
+				{
+                    "code": "260385009",
+                    "display": "Negative (qualifier value)",
+                    "target": [{
+                            "code": "RA01.1",
+                            "display": "COVID-19, virus not identified",
+                            "equivalence": "equivalent"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
