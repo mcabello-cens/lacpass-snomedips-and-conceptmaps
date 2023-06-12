@@ -1,5 +1,5 @@
 # lacpass-snomedips-and-conceptmaps
-SnomedIPS para HAPI FHIR y conceptmaps IPS a ICD11
+SnomedIPS for HAPI FHIR / Conceptmaps from IPS to ICD11
 
 1. Levanta un servidor HAPI-FHIR
 
